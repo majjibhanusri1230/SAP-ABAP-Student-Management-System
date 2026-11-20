@@ -1,11 +1,12 @@
 # Programs Directory
 
-This directory contains executable ABAP reports (`SE38`) for the **BHA Student Management System**:
+This directory contains executable ABAP reports (`SE38`) for the **BHA Student Management & Course Enrollment System**:
 
 - `zbha_student_insert.abap`: Insert student records into `ZBHA_STUDENT`.
 - `zbha_student_search.abap`: Search and retrieve student information by `STUDENT_ID`.
 - `zbha_student_update.abap`: Update student name and marks.
 - `zbha_student_delete.abap`: Delete student records with validation.
+- `zbha_enroll_add.abap`: Enroll student in a course with foreign key check on master table (`ZBHA_STUDENT`).
 - `zbha_student_validate.abap`: Data validation driver program.
 - `zbha_student_count.abap`: Aggregate count of registered students.
-- `zbha_student_mgmt.abap`: Master dashboard with radio-button navigation using `SUBMIT`.
+- `zbha_student_mgmt.abap`: Master dashboard with 10 radio buttons and selection texts using `SUBMIT ... AND RETURN`.
